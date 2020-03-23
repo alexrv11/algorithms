@@ -1,5 +1,7 @@
 package maxmin
 
+
+// Given two arrays, find the same elements in both of them
 func SameElements(A []int, B []int ) []int {
 	
 	counterMap := make(map[int]int, 0)
